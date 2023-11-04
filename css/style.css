@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    --primary: #D3D800;
     --light: #F0FBFC;
-    --dark: #181d38;
+    --dark: #081e35;
 }
 body{
     font-family: 'Times New Roman', Times, serif;
@@ -139,13 +139,13 @@ body{
     }
 
     .navbar .dropdown-menu.fade-down {
-        top: 100%;
+        top: 70%;
         transform: rotateX(-75deg);
         transform-origin: 0% 0%;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
-        top: 100%;
+        top: 70%;
         transform: rotateX(0deg);
         visibility: visible;
         transition: .5s;
@@ -163,7 +163,7 @@ body{
     
     .header-carousel .owl-carousel-item img {
         position: absolute;
-        width: 100%;
+        width: 50%;
         height: 100%;
         object-fit: cover;
     }
@@ -200,14 +200,14 @@ body{
 }
 
 .page-header {
-    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/ig.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .page-header-inner {
-    background: rgba(15, 23, 43, .7);
+    background: rgba(15, 31, 73, 0.7);
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -441,7 +441,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width:100%;
     height: 80px;
 }
 
@@ -464,7 +464,7 @@ body{
 }
 
 .menu a {
-    color: #003f80;
+    color: #042241;
     text-decoration: none;
     margin: 0 15px;
 }
@@ -495,7 +495,7 @@ body{
         flex-direction: column;
         position: absolute;
         top: 60px;
-        background-color: #333;
+        background-color:#D3D800;
         width: 100%;
     }
 
